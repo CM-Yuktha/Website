@@ -1,0 +1,39 @@
+/* Navbar Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  /* Nav Links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Buttons */
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .nav-links li a:hover {
+    transform: scale(1.1);
+    background: white;
+    color: black;
+  }
+  
